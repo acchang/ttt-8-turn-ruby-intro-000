@@ -28,3 +28,4 @@ def valid_move?(board, index)
 
 def move(board, index, player="X")
         board[index] = player
+end
