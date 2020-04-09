@@ -32,4 +32,3 @@ end
 
 def turn(num)
 end
-
