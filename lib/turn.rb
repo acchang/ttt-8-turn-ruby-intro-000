@@ -35,10 +35,8 @@ def turn(board)
   input=gets.strip
   index = input_to_index(input)
   valid_move?(board, index)
-if valid_move?(board, index) = false
+until valid_move?(board, index) = true
   puts "That is an invalid entry!"
   turn(board)
-else
-  move(board, index, player="X")
 end
 end
