@@ -38,5 +38,7 @@ def turn(board)
 if valid_move?(board, index) = false
   puts "That is an invalid entry!"
   turn(board)
+else
+  move(board, index, player="X")
 end
 end
